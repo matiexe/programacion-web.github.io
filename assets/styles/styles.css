@@ -1,0 +1,22 @@
+body {
+  margin: auto;
+  width: 980px;
+}
+.header {
+  background-color: red;
+  padding: 20px;
+}
+.marca {
+  width: auto;
+  padding: auto;
+}
+.marca img {
+  width: 180px;
+  margin-left: 10px;
+}
+.marca span {
+  font-size: x-large;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
