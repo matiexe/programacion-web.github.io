@@ -4,6 +4,7 @@ body {
   grid-template-rows: auto;
   width: 980px;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .header {
   background-color: red;
@@ -25,7 +26,6 @@ body {
 .marca span {
   font-size: x-large;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
 }
 
@@ -36,4 +36,12 @@ body {
 .left {
   grid-row: 2;
   grid-column: 1;
+}
+section {
+  padding: 10px;
+}
+.descripcion {
+  font-size: 14px;
+  text-align: center;
+  color: black;
 }
