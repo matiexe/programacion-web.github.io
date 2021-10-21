@@ -55,3 +55,26 @@ section {
   color: black;
   font-size: 16px;
 }
+
+footer {
+  padding: 20px;
+  height: 100px;
+  width: 980;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 3;
+}
+
+.desa {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 12px;
+  color: #464646;
+}
+.links {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
