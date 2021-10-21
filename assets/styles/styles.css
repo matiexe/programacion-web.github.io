@@ -78,3 +78,31 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 }
+.formulario {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.all {
+  grid-column: 1 / 4;
+}
+input {
+  width: 800px;
+  margin: 5px 0 5px 0;
+  height: 20px;
+}
+label {
+  font-size: 12px;
+}
+.enviar {
+  color: white;
+  background-color: green;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+}
