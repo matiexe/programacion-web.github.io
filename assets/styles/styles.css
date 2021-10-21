@@ -1,10 +1,18 @@
 body {
-  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
   width: 980px;
+  margin: auto;
 }
 .header {
   background-color: red;
   padding: 20px;
+  height: 100px;
+  width: 980;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 .marca {
   width: auto;
@@ -19,4 +27,13 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
+}
+
+.rigth {
+  grid-row: 2;
+  grid-column: 2;
+}
+.left {
+  grid-row: 2;
+  grid-column: 1;
 }
