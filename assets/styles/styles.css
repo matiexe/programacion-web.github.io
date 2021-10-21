@@ -40,8 +40,18 @@ body {
 section {
   padding: 10px;
 }
-.descripcion {
+.textoModi {
+}
+
+.textoModi p {
   font-size: 14px;
   text-align: center;
   color: black;
+}
+
+.objetivos {
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  font-size: 16px;
 }
